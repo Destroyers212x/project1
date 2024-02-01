@@ -1,0 +1,11 @@
+<?php
+    $servername = 'localhost'
+    $username = 'root'
+    $password = 'S)k::eDk4:)q:wy'
+    $db_name = 'My_First_database'
+    $conn = new mysqli($servername,$username,$password,$db_names);
+    if ($conn->connection_error){
+        die('connection failed'.$conn->connection_error);
+    }
+    echo 'connection succesful';
+>
